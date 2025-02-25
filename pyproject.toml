@@ -1,5 +1,5 @@
 [project]
-name = "buscar músicas"
+name = "buscar_músicas"
 version = "0.1.0"
 description = ""
 authors = [
@@ -8,6 +8,8 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "streamlit (>=1.42.2,<2.0.0)"
 ]
 
 
